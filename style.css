@@ -1,0 +1,201 @@
+body{
+   margin: 0px;    
+   scroll-behavior: smooth; 
+}
+
+.hero-image{
+    background-image: url(/assets/images/Vellore-cover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: relative;
+    width: 100%;
+    margin-left: auto;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    flex:content;
+    flex-wrap: wrap;
+}
+
+.hero-title-div{
+width: 225px;
+height: 42px;
+margin-top: 130px;
+border-radius: 10px;
+background: #56381A;
+position: absolute;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+overflow-wrap: break-word;
+box-shadow: 0 0 5px #A8DADC;
+cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+
+.hero-title{
+font-family: Arial;
+font-size: 28px;
+font-weight: 700;
+text-align: center;
+color: #FFFFFF;
+margin: 0px;
+}
+
+.hero-details-div{
+width: 60%;
+margin-top: 190px;
+margin-left: auto;
+border: 2px solid #ccd5ae;
+border-radius: 10px;
+background: #56381A;
+position: absolute;
+display: flex;
+flex-wrap: wrap;
+flex-shrink: shrink;
+align-items: center;
+justify-content: center;
+overflow-wrap: break-word;
+opacity: 80%;    
+}
+
+.hero-details{
+font-family: Arial;
+font-size: calc(1vw + 2vh);
+font-weight: 700;
+text-align: center;
+color: #FFFFFF;    
+}
+
+.flex-div{
+width: 100%;
+height: 100%;
+background: #fefae0;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
+justify-content: space-evenly;
+}
+
+.flex-title{
+font-family: Arial;
+font-size: 24px;
+font-weight: 700;
+text-align: center;
+color: #56381A;    
+margin: 60px;
+}
+
+.flex-item{
+width: 198px;
+height: 226px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: 60px 0;    
+}
+
+.flex-item .flex-item-img:hover{
+width: 200px;
+height: 200px;
+border-radius: 10%;  
+}
+
+.flex-item-img{
+width: 100px;
+height: 100px;
+border-radius: 50%;  
+margin-bottom: 10px;
+box-shadow: 0px 0px 15px #56381A;
+}
+
+.flex-item-title{
+font-family: Arial;
+font-size: 16px;
+font-weight: 700;
+line-height: 18.4px;
+text-align: center;
+color: #56381A;    
+margin-bottom: 10px;  
+}
+
+.flex-item-details{
+font-family: Arial;
+font-size: 16px;
+font-weight: 400;
+text-align: center;
+color: #56381A;    
+    
+}
+
+.guide{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 60px;
+}
+
+.guide-div{
+width: 410px;
+height: 100%;
+border-radius: 10px;
+box-shadow: 0px 6px 0px 0px #56381A;
+background: #faedcd;   
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+flex-wrap: wrap; 
+}
+
+.guide-img{
+width: 180px;
+height: 248.67px;
+border-radius: 10px;
+margin: 10px;
+}
+
+.guide-description{
+    width: 207px;
+    height: auto;
+}
+
+.guide-title{
+font-family: Arial;
+font-size: 24px;
+font-weight: 700;
+text-align: center;
+color: #56381A; 
+margin: 10px;
+   
+}
+
+.guide-details{
+font-family: Arial;
+font-size: 16px;
+font-style: italic;
+font-weight: 400;
+text-align: center;
+color: #56381A; 
+margin: 10px;
+   
+}
+
+
+.guide-name{
+font-family: Arial;
+font-size: 16px;
+font-weight: 700;
+text-align: center;
+color: #56381A;  
+margin: 10px;
+  
+}
